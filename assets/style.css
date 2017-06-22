@@ -11,6 +11,11 @@ body {
 	margin-bottom: 20px;
 }
 
+.main-container {
+	background-color: #efefef;
+}
+
+
 .form-inline {
 	float: left;
 }
@@ -53,11 +58,15 @@ body {
 /* footer */
 
 #footer {
-	text-align: center;
-	color: #fff;
 	background-color: #666;
 	padding: 10px;
 	border-top: 3px solid #4aaaa5;
+	text-align: center;
+}
+
+#foot1 {
+	color: white;
+	text-align: center;
 }
 
 /* portfolio */
@@ -81,6 +90,48 @@ body {
 	text-align: center;
 	width: 100%;
 	margin-right: 15px;
+}
+
+/* contact page */
+
+#contact-form ul {
+	margin-bottom: 20px;
+}
+
+#contact-from li {
+	margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	height: 35px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+textarea {
+	height: 200px;
+}
+
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 100%;
 }
 
 

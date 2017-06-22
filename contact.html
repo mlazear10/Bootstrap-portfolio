@@ -34,36 +34,39 @@
 
 <div id="main-container" class="container">
  <div class="row">
-  <section class="col-sm-12 col-md-8 main-container">
+  <section class="col-md-8">
+  <div class="main-container">
    <h2>Contact</h2>
-	<form class="horizontal contact-form">
-	 <ul>
-	  <li><label for="name">Name</label>
-	   <input type="text" name="name" placeholder="John Doe" required="required"></li>
-		<li><label for="email">Email</label><input type="text" name="email" placeholder="example@gmail.com" required="required">
-		</li>
-		<li>
-		<label for="message">Message</label>
-		<textarea id="message" name="message" required="required"></textarea>
-		</li>
-		</ul>
-		<input type="submit" name="submit" >
-		</form>
-		</section>
+    <div class="row">
+     <div class="col-md-12">
+	 <form id="contact-form">
+	  <div class="form-group">
+	  <ul>
+	   <li><label for="name">Name</label><input type="text" name="name" placeholder="John Doe" required="required" class="form-control"></li>
+	   <li><label for="email">Email</label><input type="text" name="email" placeholder="example@gmail.com" required="required" class="form-control"></li>
+	   <li><label for="message">Message</label><textarea id="message" name="message" required="required" class="form-control"></textarea></li>
+	  </ul>
+	  <input type="submit" name="submit" class="form-control">
+	  </div>
+	 </form>
+	</div>
+	</section>
 
-		<section class="col-sm-12 col-md-4 sidebar">
+	<section class="col-sm-12 col-md-4 sidebar">
 		 <div id="connect">
 		  <h2>Connect with Me</h2>
 		   <a href=https://github.com><img src="images/GitHub-icon.png" alt="github" class="social"></a>
 		   <a href="https://linkedin.com"><img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png" alt="LinkedIn-Logo" class="social"></a>
 		   <a href="http://stackoverflow.com"><img src="images/so-icon.png" alt="stackOverflow"  class="social"></a>
-		 </div>	
+		 </div>
 		</section>
  </div>
 </div>
 
 <div class="navbar-default navbar-fixed-bottom bg-primary" id="footer">
-	<footer>@ Copyright 2017 Michael Lazear</footer>
+ <footer>
+   @ Copyright 2017 Michael Lazear</div>
+ </footer>
 </div>
 
 
