@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* background-image: url("../images/bg2.png"); */
+	padding-bottom: 70px;
+}
+
+#main-container {
+	margin-bottom: 20px;
+}
+
+.form-inline {
+	float: left;
+}
+
+.nav.nav-pills {
+	float: right;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+
+.mypic {
+	width: 350px;
+	margin-right: 10px;
+	height: auto;
+	float: left;
+	border: dotted 1px #efefef;
+}
+
+.para {
+	text-align: justify;
+}
+
+/* side bar */
+
+.sidebar {
+	text-align: center;
+	border: dotted 2px #efefef;
+	padding-bottom: 10px;
+	background-image: url("../images/bg2.png");
+}
+
+.social {
+	width: 59px;
+	height: 57px;
+	margin-right: 5px;
+	margin-top: 8px;
+}
+
+/* footer */
+
+#footer {
+	text-align: center;
+	color: #fff;
+	background-color: #666;
+	padding: 10px;
+	border-top: 3px solid #4aaaa5;
+}
+
+/* portfolio */
+
+.work {
+	overflow: auto;
+	position: relative;
+	height: 275px;
+	float: left;
+	text-align: center;
+}
+
+.work img {
+	width: 100%;
+}
+
+.work h3 {
+	position: absolute;
+	bottom: 50px;
+	line-height: 30px;
+	text-align: center;
+	width: 100%;
+	margin-right: 15px;
+}
+
+
+
+
+/* 640 px screen adjustments */
+@media screen and (max-width: 640px) {
+
+	.mypic {
+		width: 100%;
+	}
+
+	.para {
+		text-indent: 20px;
+
+}
+
+
